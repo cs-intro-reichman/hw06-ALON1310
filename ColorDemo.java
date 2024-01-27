@@ -35,7 +35,10 @@ public class ColorDemo {
 		for (int i = 0; i < bwbw.length; i++) {
 			print(bwbw[i]);
 		}
-		System.out.println();
+		int v = white.getRGB();
+		System.out.println(v);
+
+		//System.out.println();
 
 	    // Illustrates another way of constructing the above array:
 		Color[] bwbw1 = { new Color(0,0,0), new Color(255,255,255), new Color(255,255,255), new Color(0,0,0) };
